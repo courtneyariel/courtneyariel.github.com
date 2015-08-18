@@ -257,9 +257,9 @@ div .navi ul li.active a{
 
 .button a:hover {
 	
-	opacity: 0.5;
-	background-color: #fff;
-	color: #273c47;
+	opacity: 1;
+	background-color: #CFB282;
+	color: #3A3A3A;
 	
 
 }
