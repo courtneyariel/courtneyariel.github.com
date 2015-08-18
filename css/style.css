@@ -43,7 +43,7 @@ a {
 	background: #e1cbc7; /* url(../img/pbbkgd.jpg) bottom center no-repeat; */
 
 	height: 100vh;
-	min-height: 700px;
+	
 	
 	background-size: cover;
 	-webkit-background-size: cover;
@@ -69,7 +69,7 @@ a {
 	/* url(../img/bncbg.jpg) bottom center no-repeat; */
 
 	height: 100vh;
-	min-height: 700px;
+	
 	
 	background-size: cover;
 	-webkit-background-size: cover;
@@ -82,7 +82,7 @@ a {
 	background: #7f7b7e url(../img/portfoliobg.jpg) bottom center  no-repeat;
 
 	height: 100vh;
-	min-height: 700px;
+	
 	
 	background-size: cover;
 	-webkit-background-size: cover;
@@ -684,7 +684,7 @@ div#menuBtn {
 .name {
 
 	font-size: 33px;
-	padding-top: 130px;
+	padding-top: 230px;
 
 
 }
