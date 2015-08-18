@@ -40,7 +40,7 @@ a {
 }
 
 .pb {
-	background: #e1cbc7; /* url(../img/pbbkgd.jpg) bottom center no-repeat; */
+	background: #e1cbc7 url(../img/pbbg.jpg) bottom center no-repeat;
 
 	height: 100vh;
 	
@@ -63,10 +63,14 @@ a {
 	margin: 0 auto;
 }
 
-.bnc {
-	background: #e1cbc7;
+.bimg img{
+	display: block;
+	width: 15%;
+	margin: 0 auto;
+}
 
-	/* url(../img/bncbg.jpg) bottom center no-repeat; */
+.bnc {
+	background: #C1D5DC url(../img/bncbg.jpg) bottom center no-repeat;
 
 	height: 100vh;
 	
