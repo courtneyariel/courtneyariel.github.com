@@ -1,5 +1,5 @@
 
-@import url(http://fonts.googleapis.com/css?family=Prata);
+
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,100,300,200,500,600,700);
 
 body {
@@ -680,6 +680,28 @@ div#menuBtn {
 	width: 850px;
 	margin: 0 auto;
 }
+
+.name {
+
+	font-size: 33px;
+	padding-top: 130px;
+
+
+}
+
+.himg img {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+.button {
+   
+    margin-top: 52px;
+ 
+}
+
 
 .what {
 	display:none;
@@ -1392,14 +1414,26 @@ text-align:center;
 
 .name {
 
-	font-size: 34px;
-	padding-top: 158px;
+	font-size: 33px;
+	padding-top: 130px;
 
 
 }
 
+.himg img {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+}
+
 .txt {
 	font-size: 17px;
+}
+
+.button {
+   
+    margin-top: 52px;
+ 
 }
 
 header {
