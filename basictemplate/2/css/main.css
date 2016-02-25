@@ -15,7 +15,7 @@ body {
 	font-size: 1.063em;
 	font-weight: 400;
 	color: #000;
-	line-height: 30px;
+	line-height: 25.5px;
 	letter-spacing: 0.2px;
 }
 
@@ -60,7 +60,7 @@ h3 {
 	color: #A9A9A9;
 	font-family: 'Apercu', serif;
 	text-transform: uppercase;
-	font-size: 0.833em;
+	font-size: 0.813em;
 	font-weight: bold;
 	letter-spacing: 4px; 
 	margin-bottom: 20px;
@@ -70,7 +70,7 @@ h3 {
 
 h1 {
 	font-family: 'Marian Text 1800', serif;
-	font-size: 2.074em;
+	font-size: 2.063em;
 	color: #000;
 	letter-spacing: 1px;
 	font-weight: normal;
@@ -84,7 +84,7 @@ h2 {
 	font-size: 1.438em;
 	color: #2E3336;
 	letter-spacing: 1px;
-	font-weight: normal;
+	font-weight: 200;
 	margin-bottom: 0px;
 }
 
@@ -166,7 +166,7 @@ article section hr {
 article p span {
     font-family: 'Marian Text 1800';
     float: left;
-    font-size: 4.3em;
+    font-size: 2.938em;
     line-height: 70%;
     font-weight: 400;
     margin-top: 9px;
@@ -186,7 +186,7 @@ figure img {
 figcaption {
 	font-family: 'SF UI Text';
 	color: #A9A9A9;
-	font-size: 0.833em;
+	font-size: 1.063em;
 	line-height: 22px;
 	font-style: italic;
 	margin: 0 21px;
