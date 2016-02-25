@@ -1,0 +1,298 @@
+/** Regular
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 400;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+}
+*/
+
+html {
+	font-size: 100%;
+}
+
+body {
+	font-family: 'SF UI Text', serif;
+	font-size: 1.063em;
+	font-weight: 400;
+	color: #000;
+	line-height: 30px;
+	letter-spacing: 0.2px;
+}
+
+a, a:hover {
+	color: #23BCC9;
+	text-decoration: none;
+}
+
+header {
+	background: url(../img/bg3ipad.jpg) bottom no-repeat fixed;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	-moz-background-size: cover;
+	height:500px;
+
+}
+
+.headerimg {
+	width: 100%;
+	margin-top:-179px;
+}
+
+.headerimg img {
+	width: 100%;
+	
+}
+
+article {
+	padding-top: 33px;
+
+}
+
+.margins {
+	margin:0 21px;
+}
+
+
+/* KICKER */ 
+
+h3 {
+	color: #A9A9A9;
+	font-family: 'Apercu', serif;
+	text-transform: uppercase;
+	font-size: 0.833em;
+	font-weight: bold;
+	letter-spacing: 4px; 
+	margin-bottom: 20px;
+}
+
+/* HEADLINE */
+
+h1 {
+	font-family: 'Marian Text 1800', serif;
+	font-size: 2.074em;
+	color: #000;
+	letter-spacing: 1px;
+	font-weight: normal;
+	margin-bottom: 15px;
+}
+
+/* DECK */
+
+h2 {
+	font-family: 'SF UI Display', serif;
+	font-size: 1.438em;
+	color: #2E3336;
+	letter-spacing: 1px;
+	font-weight: normal;
+	margin-bottom: 0px;
+}
+
+/* RULE */
+
+article section span.rule1 {
+	display: block;
+	margin: 0 auto;
+	border: 1px solid #E9E9E9;
+	width: 85px;
+	margin-top: 18px;
+	margin-bottom: 15px;
+}
+
+article section span.rule2 {
+	display: block;
+	margin: 0 auto;
+	border: 1px solid #E9E9E9;
+	width: 85px;
+	margin-top: 15px;
+	margin-bottom: 18px;
+}
+
+/* PUBLISHER */
+
+.source {
+	font-family: 'Apercu';
+	font-weight: normal;
+	font-style: normal;
+	display: block;
+	color: #23BCC9;
+}
+
+/* BYLINE */
+.byline {
+	font-family: 'Apercu';
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: bold;
+	font-style: normal;
+	display: block;
+	color: #A9A9A9;
+	font-size:  0.813em;
+}
+
+/* SUBHEAD */
+
+h4 {
+	color: #A9A9A9;
+	text-transform: uppercase;
+	font-size: 1em;
+	font-family: 'Apercu';
+	font-weight: bold;
+	letter-spacing: 4px;
+	margin-bottom: 15px;
+	line-height: 26px;
+}
+
+/* Top/Header Section of Article that contains: Kicker, Hed, Deck, Line, Folio, and Byline; */
+article section.header {
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.masthead {
+	height:20px;
+}
+
+.masthead img {
+	height:100%;
+}
+article section hr {
+	border: 1px solid #979797;
+	width: 250px;
+}
+
+
+/* DROPCAP */
+article p span {
+    font-family: 'Marian Text 1800';
+    float: left;
+    font-size: 4.3em;
+    line-height: 70%;
+    font-weight: 400;
+    margin-top: 9px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+figure {
+	margin: 50px 0px;
+}
+
+figure img {
+	width: 100%;
+}
+
+figcaption {
+	font-family: 'SF UI Text';
+	color: #A9A9A9;
+	font-size: 0.833em;
+	line-height: 22px;
+	font-style: italic;
+	margin: 0 21px;
+}
+
+.art {
+	margin-top: 20px;
+	font-style: normal;
+	
+}
+
+.arttype {
+	font-style: normal;
+	font-family: 'Apercu';
+	font-weight: bold;
+	font-size: 11.5px;
+	letter-spacing: 4px;
+	padding-right: 2px;
+}
+
+.artsource {
+	font-style: normal;
+	padding-left: 2px;
+}
+
+
+blockquote {
+	font-family: 'Marian Text 1800';
+	font-size: 1.728em;	
+	font-style: italic;
+	line-height: 36px;
+	border-left: 3px solid #E9E9E9;
+	margin: 1.5em 0px;
+	padding: 0em 9px;
+	quotes: "\201C""\201D""\2018""\2019";
+}
+
+blockquote:before {
+  color: #000;
+  content: open-quote;
+  font-style: normal;
+  font-size: 2.986em;
+  line-height: 0.1em;
+  margin-right: 0.2em;
+  vertical-align: -0.4em;
+
+}
+blockquote p {
+  display: inline;
+}
+
+/*
+blockquote {
+	font-family: 'Marian Text 1800';
+	font-style: italic;
+	border-left: 5px solid #50C7D1;
+	padding-left: 15px;
+	font-size: 1.728em;
+}
+
+blockquote span.symbol {
+	font-size: 2.986em;
+	font-style: normal;
+}
+
+*/
+
+@media only screen and (max-width: 640px) {
+
+
+	header {
+	background: url(../img/bg3ipad.jpg) bottom no-repeat;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	-moz-background-size: cover;
+	height:200px;
+
+}
+
+	.headerimg {
+	width: 100%;
+	margin-top:-80px;
+}
+  
+}
+
+
+
+@media only screen and (max-width: 375px) and (max-device-width:667px) and (-webkit-min-device-pixel-ratio: 2) {
+
+
+	header {
+	background: url(../img/bg3ipad.jpg) bottom no-repeat;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	-moz-background-size: cover;
+	height:200px;
+
+}
+
+	.headerimg {
+	width: 100%;
+	margin-top:-129px;
+}
+  
+}
+
