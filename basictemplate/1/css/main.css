@@ -25,7 +25,7 @@ a, a:hover {
 }
 
 header {
-	background: url(../img/bg3ipad.jpg) bottom no-repeat;
+	background: url(../img/hero.jpg) bottom no-repeat fixed;
 	background-size: cover;
 	-webkit-background-size: cover;
 	-o-background-size: cover;
@@ -33,6 +33,17 @@ header {
 	height:500px;
 
 }
+
+#hero {
+  width: 100%;
+  height: 100%;
+}
+
+.angled {
+  -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 50% 100%, 0% 50%, 0% 100%);
+  clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 50% 100%, 0% 50%, 0% 100%);
+}
+
 
 .headerimg {
 	width: 100%;
@@ -59,9 +70,9 @@ article {
 h3 {
 	color: #A9A9A9;
 	font-family: 'Apercu', serif;
+	font-weight: bold;
 	text-transform: uppercase;
 	font-size: 0.813em;
-	font-weight: bold;
 	letter-spacing: 4px; 
 	margin-bottom: 20px;
 }
@@ -130,6 +141,18 @@ article section span.rule2 {
 	font-size:  0.813em;
 }
 
+.byline img {
+	width: 15px;
+	height: 15px;
+	top: 2px;
+	position: relative;
+	padding-right: 5px;
+}
+.line {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
 /* SUBHEAD */
 
 h4 {
@@ -169,8 +192,8 @@ article p span {
     font-size: 2.938em;
     line-height: 70%;
     font-weight: 400;
-    margin-top: 9px;
-    margin-right: 10px;
+    margin-top: 15px;
+    margin-right: 8px;
     margin-bottom: 0px;
     margin-left: 0px;
 }
@@ -254,11 +277,86 @@ blockquote span.symbol {
 
 */
 
+
+/* FOOTER */
+
+footer {
+	background-color: #2e3336;
+	text-align: center;
+	width: 100%;
+	padding: 20px 0%;
+	color: #fff;
+
+}
+
+footer h1 {
+	font-size: 20px;
+	color: #fff;
+	letter-spacing: 0.4px;
+	padding-top: 30px;
+
+}
+
+footer h1:nth-child(1) {
+	font-size: 20px;
+	color: #fff;
+	letter-spacing: 0.4px;
+	padding-bottom: 30px;
+	
+}
+
+footer a{
+	border: 1px solid #fff;
+	padding:10px;
+	margin: 20px 4px 2px 4px;
+	color: #fff;
+	text-decoration: none;
+}
+
+footer a:hover {
+	border: 1px solid #23bcc9;
+	padding: 10px;
+	
+	color: #fff;
+	background-color: #23bcc9;
+	text-decoration: none;
+}
+
+footer a.new {
+	border: none;
+	padding: 0%;
+	color: #fff;
+	text-decoration: none;
+}
+
+footer a.new:hover {
+	border: none;
+	padding: 0%;
+	color: #fff;
+	text-decoration: none;
+	background-color: rgba(255, 255, 255, 0);
+}
+
+footer img {
+	margin:0 auto;
+	display: block;
+}
+
+
+footer span.line2 {
+	border-bottom: 1px solid #fff;
+	width:110px;
+	display: block;
+	margin: 0 auto;
+	padding-top: 40px;
+
+}
+
 @media only screen and (max-width: 640px) {
 
 
 	header {
-	
+	background: url(../img/hero.jpg) bottom no-repeat;
 	background-size: cover;
 	-webkit-background-size: cover;
 	-o-background-size: cover;
@@ -275,12 +373,24 @@ blockquote span.symbol {
 }
 
 
+@media (max-width: 500px) {
+
+footer img {
+	margin:0 auto;
+	display: block;
+	padding: 1%;
+	padding-top: 3%;
+	width: 70%;
+}
+
+}
+
 
 @media only screen and (max-width: 375px) and (max-device-width:667px) and (-webkit-min-device-pixel-ratio: 2) {
 
 
 	header {
-	
+	background: url(../img/hero.jpg) bottom no-repeat;
 	background-size: cover;
 	-webkit-background-size: cover;
 	-o-background-size: cover;
@@ -295,4 +405,6 @@ blockquote span.symbol {
 }
   
 }
+
+
 
